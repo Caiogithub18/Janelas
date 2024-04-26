@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_light"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:src="@drawable/baseline_arrow_back_ios" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="310dp"
+        android:background="?android:attr/selectable"
+        android:text="Login"
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Bandio"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="60dp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/baseline_person_outline"
+        android:hint="Username"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity=""
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/baseline_key"
+        android:drawableEnd="@drawable/baseline_question_mark"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:drawableBottom="@drawable/baseline_logout"
+        android:paddingBottom="20dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        app:helperText="Don't have an account? Sign up"
+        app:helperTextTextColor="#0B0101" />
+
+
+</LinearLayout>
